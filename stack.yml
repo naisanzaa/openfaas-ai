@@ -3,8 +3,8 @@ provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
 functions:
-  stack:
+  hello:
     lang: python3
-    handler: ./stack
-    image: naisanzaa/stack:latest
+    handler: ./hello
+    image: naisanzaa/hello:latest
 
