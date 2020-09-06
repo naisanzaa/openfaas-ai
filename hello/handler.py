@@ -4,6 +4,6 @@ def handle(req):
         req (str): request body
     """
 
-    req = 'test'
-
-    return req
+    return {
+        'new': 'code'
+    }
