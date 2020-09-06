@@ -4,12 +4,6 @@ def handle(req):
         req (str): request body
     """
 
+    req = 'test'
+
     return req
-
-
-if __name__ == '__main__':
-    print(
-        {
-            'new': 'code'
-        }
-    )
