@@ -5,3 +5,11 @@ def handle(req):
     """
 
     return req
+
+
+if __name__ == '__main__':
+    print(
+        {
+            'new': 'code'
+        }
+    )
